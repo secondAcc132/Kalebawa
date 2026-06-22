@@ -239,7 +239,7 @@ figcaption .dates{ font-style:normal; letter-spacing:.12em; color:var(--gold); f
 }
 .hero .epithet{
   font-family:var(--display); font-style:italic; font-weight:400;
-  font-size:clamp(1.45rem,4vw,2.1rem); color:var(--gold);
+  font-size:clamp(1.8rem,5vw,2.6rem); color:var(--gold);
   margin:.2rem 0 1.8rem; letter-spacing:.02em;
 }
 .hero .epithet .sep{ color:var(--gold-deep); margin:0 .55rem; }
@@ -305,6 +305,19 @@ figcaption .dates{ font-style:normal; letter-spacing:.12em; color:var(--gold); f
 
 /* ---------- responsive ---------- */
 @media (max-width:680px){
+  .hero .epithet{
+    font-size:2rem;
+    line-height:1.25;
+  }
+  .hero-lead{
+    font-size:1.35rem;
+    line-height:1.55;
+  }
+  .hero .dateline{
+    font-size:.88rem;
+    line-height:1.6;
+    letter-spacing:.14em;
+  }
   body{
     font-size:1.22rem;
     line-height:1.82;
